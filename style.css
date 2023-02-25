@@ -24,8 +24,14 @@
     padding-right: 30px;
     cursor: pointer;
 }
-.navlinks ul a{
+.navlinks ul li{
     display: inline-block;
     padding-right: 30px;
     cursor: pointer;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17;
+    text-transform: uppercase;
 }
