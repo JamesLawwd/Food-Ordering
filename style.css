@@ -159,3 +159,69 @@
     padding: 50px;
 
 }
+input[type]{
+    margin: 10px auto 30px;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+}
+
+input[type=Number]{
+    margin: 10px auto 30px;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+}
+input[type=Email]{
+    margin: 10px auto 30px;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+}
+.form textarea{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    height: 250px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+}
+.query{
+    padding: 10px;
+    background-color: crimson;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s ease;
+}
+.query a{
+    color: white;
+    text-decoration: none;
+}
+.query:hover{
+    background-color: rgb(178, 20,52);
+}
+.footer{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    background-color: rgb(178, 20,52);
+    justify-content: space-around;
+}
+.footer h1, .footer2 h2, .credit p{
+    color: white;
+}
+.footer2 ul, .footer3 ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.footer2 ul li a, .footer3 ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.footer2 ul li a:hover, .footer3 ul li a:hover{
+    color: rgb(235, 208, 208);
+}
